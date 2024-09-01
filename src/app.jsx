@@ -1,18 +1,19 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import {useState, useEffect} from 'react';
-import Router from 'react-router'
+import { BrowserRouter as Router, Route, Routes } from 'https://cdn.jsdelivr.net/npm/react-router-dom@6.26.1/dist/umd/react-router-dom.production.min.js';
 
 import LandingPage from './page/landingPage.jsx';
 import Home from './page/home.jsx';
 
 
 const Main = () => {
-  
     return(
-      <div>
-      <LandingPage/>
-      </div>
+    <Router>
+      <Routes>
+        <Route exact path="/" element={<LandingPage />} />
+      </Routes>
+    </Router>
     )
 }
 

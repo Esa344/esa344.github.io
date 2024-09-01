@@ -19,7 +19,6 @@ SystemJS.config({
     'systemjs-babel-build': 'systemjs-plugin-babel@latest/systemjs-babel-browser.js',
     'react': 'react@17.0.1/umd/react.development.js',
     'react-dom': 'react-dom@17.0.1/umd/react-dom.development.js',
-    'react-router': './cdn_modules/react-router@6.26.1/react-router.development.js',
     'function': './function.js'
   },
   transpiler: 'plugin-babel'
