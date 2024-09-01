@@ -1,0 +1,114 @@
+.canvas{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.navigation{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin-top: 1vh;
+  width: 100vw;
+}
+
+.Logo{
+  width: 40vw;
+  height: auto;
+}
+
+.navText{
+  display: flex;
+  justify-content: space-evenly;
+  width: 40vw;
+  font-weight: lighter;
+}
+
+.welcomeText{
+  width: 80vw;
+}
+
+.midFoto{
+  display: flex;
+  width: 100vw;
+  height: 40vh;
+  align-items: top;
+  justify-content: center;
+}
+
+.fullLogo{
+  width: 70vw;
+  z-index: 1;
+  position: absolute;
+  margin-right: 25vw;
+}
+
+.selfFoto{
+  width: 70vw;
+  z-index: 2;
+  position: absolute;
+  margin-left: 25vw;
+  filter: drop-shadow(2px 2px #4DA6FF);
+}
+
+.midText{
+  width: 100vw;
+  display: grid;
+  margin-top: 1vh;
+}
+
+.textBrand{
+  width: 35vw;
+  margin-right: auto;
+  margin-left: 15vw;
+  z-index: 2;
+}
+
+.xIcon{
+  width: 22vw;
+  position: absolute;
+  place-self: center;
+  z-index: 1;
+}
+
+.selfName{
+  width: 35vw;
+  margin-right: 15vw;
+  margin-left: auto;
+  z-index: 2;
+}
+
+.footerButton{
+  width: 100vw;
+  height: 12vh;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-top: 1vh;
+}
+
+.bGoSite{
+  width: 85vw;
+  height: 5vh;
+  background-color: #4DA6FF;
+  color: #FFFAF6;
+  font-weight: bold;
+  font-size: 3vh;
+  border: none;
+  border-radius: 2.5vh
+}
+
+.bAbout{
+  width: 42vw;
+  height: 5vh;
+  background-color: #FFFAF6;
+  color: #4DA6FF;
+  font-weight: bold;
+  font-size: 3vh;
+  border: solid;
+  border-radius: 2.5vh;
+  border-color: #4DA6FF;
+  border-width: 0.4vh;
+  margin: 1vw;
+}
