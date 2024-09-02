@@ -1,5 +1,6 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
+import { Link } from 'https://cdn.jsdelivr.net/npm/react-router-dom@6.26.1/dist/umd/react-router-dom.production.min.js'
 import stylink from 'function';
 
 stylink('src/page/landingPage.css', 'mobile')
@@ -26,7 +27,9 @@ const LandingPage = () => {
         <img src='/src/private/selfName.png' className='selfName'/>
       </div>
       <div className='footerButton'>
-        <button className='bGoSite'>Go to Site</button>
+      <Link to='/home'>
+          <button className='bGoSite'>Go to Site</button>
+      </Link>
         <button className='bAbout'>About ezaco</button>
         <button className='bAbout'>About me</button>
       </div>

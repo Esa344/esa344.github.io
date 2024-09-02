@@ -13,6 +13,7 @@ const Main = () => {
    <Router>
       <Routes>
         <Route exact path="/" element={<LandingPage />} />
+        <Route path="/home" element={<Home />} />
       </Routes>
     </Router>
     )
