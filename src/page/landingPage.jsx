@@ -28,7 +28,7 @@ const LandingPage = () => {
       </div>
       <div className='footerButton'>
       <Link to='/home'>
-          <button className='bGoSite'>Go to Site</button>
+          <button className='bGoSite' onClick={window.location.href='/home'}>Go to Site</button>
       </Link>
         <button className='bAbout'>About ezaco</button>
         <button className='bAbout'>About me</button>
