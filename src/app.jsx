@@ -7,14 +7,14 @@ import LandingPage from './page/landingPage.jsx';
 import Home from './page/home.jsx';
 
 
+
 const Main = () => {
     return(
-   /* <Router>
+   <Router>
       <Routes>
         <Route exact path="/" element={<LandingPage />} />
       </Routes>
-    </Router>*/
-    <LandingPage/>
+    </Router>
     )
 }
 

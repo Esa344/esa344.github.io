@@ -2,7 +2,7 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import stylink from 'function';
 
-stylink('src/page/landingPage.css')
+stylink('src/page/landingPage.css', 'mobile')
 
 const LandingPage = () => {
   return(
