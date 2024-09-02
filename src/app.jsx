@@ -6,14 +6,12 @@ import { BrowserRouter as Router, Route, Routes } from 'https://cdn.jsdelivr.net
 import LandingPage from './page/landingPage.jsx';
 import Home from './page/home.jsx';
 
-
-
 const Main = () => {
     return(
    <Router>
       <Routes>
         <Route exact path="/" element={<LandingPage />} />
-        <Route path="/home" element={<Home />} />
+        <Route path="/Home" element={<Home />} />
       </Routes>
     </Router>
     )
