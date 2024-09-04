@@ -38,14 +38,14 @@
 }
 
 .fullLogo{
-  width: 70vw;
+  height: 40vh;
   z-index: 1;
   position: absolute;
   margin-right: 25vw;
 }
 
 .selfFoto{
-  width: 70vw;
+  height: 40vh;
   z-index: 2;
   position: absolute;
   margin-left: 25vw;
