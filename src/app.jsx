@@ -10,8 +10,8 @@ const Main = () => {
     return(
    <Router>
       <Routes>
-        <Route exact path="/" element={<LandingPage />} />
-        <Route path="/Home" element={<Home />} />
+        <Route exact path="/landingpage" element={<LandingPage />} />
+        <Route path="/" element={<Home />} />
       </Routes>
     </Router>
     )
