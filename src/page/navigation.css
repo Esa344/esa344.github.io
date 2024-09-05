@@ -1,0 +1,70 @@
+@font-face {
+  font-family: mary-kate;
+  src: url("https://db.onlinewebfonts.com/t/4f88f680537c8291217f919f524d67d7.woff")format("woff"),
+}
+
+.navigationCanvas{
+  margin-top: auto;
+  height: auto;
+}
+
+.topBar{
+  width: 100vw;
+  display: grid;
+  margin-top: 10px;
+}
+
+aside{
+  background-color: #FFFAF6;
+  position: fixed;
+  height: 100vh;
+  width: 60vw;
+  z-index: 10;
+  border-right: solid #4DAFF6;
+  margin-left: -61vw;
+  margin-top: -1.5vh;
+  transition: 500ms;
+}
+
+.closeSide {
+  height: auto;
+  width: auto;
+  display: grid;
+  align-items: center;
+  margin-top: 7vh;
+  margin-left: 6vw;
+}
+
+.xOne {
+  height: 2vw;
+  width: 7vw;
+  transform: rotate(45deg);
+  background-color: #525252;
+  position: absolute;
+  border-radius: 2vw;
+}
+
+.xTwo {
+  height: 2vw;
+  width: 7vw;
+  transform: rotate(135deg);
+  background-color: #525252;
+  position: absolute;
+  border-radius: 2vw;
+}
+
+.topLogo{
+  width: 45vw;
+  place-self: center;
+  padding-left: 2vw;
+  border-radius: 10vh;
+  transition: 500ms;
+}
+
+.aSideAction{
+  width: 8vw;
+  position: absolute;
+  align-self: center;
+  margin-left: 3vw;
+  z-index: 9;
+}

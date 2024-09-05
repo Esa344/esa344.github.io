@@ -1,51 +1,20 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
+import { BrowserRouter as Router, Route, Routes } from 'https://cdn.jsdelivr.net/npm/react-router-dom@6.26.1/dist/umd/react-router-dom.production.min.js';
 import {useState} from 'react';
 import stylink from 'function';
 
+import Navigation from './navigation.jsx';
+
 const Home = () => {
-  const [sideOpen, setSideOpen] = useState(false);
-  const [topLogoOpacity, setTopLogoOpacity] = useState(true);
-
-  function wSidebarOpen() {
-    const newMarginLeft = sideOpen ? '0vw' : '-60vw';
-    const newOpacity = topLogoOpacity ? '100%' : '0%';
-    setSideOpen(!sideOpen);
-    setTopLogoOpacity(!topLogoOpacity);
-
-    setTimeout(() => {
-      document.querySelector('.aside').style.marginLeft = newMarginLeft;
-      document.querySelector('.topLogo').style.opacity = newOpacity;
-    }, 0);
-  }
-
-  return (
-    <div className='homeCanvas'>
-      <div className='topBar'>
-        <aside className='aside'>
-          <div
-          className='closeSide'
-          onClick={wSidebarOpen}
-          >
-            <div className='xOne'/>
-            <div className='xTwo'/>
-          </div>
-        </aside>
-        <img 
-          src='/src/private/aSideAction.png' 
-          className='aSideAction' 
-          onClick={wSidebarOpen}
-          alt='Toggle Sidebar'
-        />
-        <img
-        src='/src/private/horizontalLogo.png'
-        className='topLogo'
-        alt='Logo'/>
-      </div>
+  return(
+    <div>
+      <Navigation />    
+      <Routes>
+        <Route path="/" element={<h1>halo</h1>} />
+      </Routes>
     </div>
-  );
+    )
 }
 
-stylink('src/page/home.css', 'mobile')
-
-export default Home;
+export default Home
