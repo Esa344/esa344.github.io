@@ -87,8 +87,8 @@ aside{
   display: flex;
   align-items: center;
   margin-left: 4vw;
-  margin-top: 90vh;
   position: fixed;
+  bottom: 3vh;
 }
 
 .sideFoter img{
