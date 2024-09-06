@@ -8,6 +8,14 @@ const InnerWeb = () => {
   return(
     <div className='innerWebCanvas'>
       <div className='ads'>ADS</div>
+      <div className='gameBar'>
+        <div className='textGameBar'>
+          
+        </div>
+        <div>
+          Tab to edit
+        </div>
+      </div>
     </div>
     )
 }
