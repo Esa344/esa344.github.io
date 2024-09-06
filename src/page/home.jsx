@@ -9,7 +9,7 @@ import Navigation from './navigation.jsx';
 const Home = () => {
   return(
     <div>
-      <Navigation />    
+      <Navigation className='navbar'/>    
       <Routes>
         <Route path="/" element={<h1>halo</h1>} />
       </Routes>
