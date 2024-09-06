@@ -40,7 +40,29 @@ const Navigation = () => {
               <div className='xTwo'/>
             </div>          
           </div>
-          <h1 className='items'></h1>
+          <h1 className='items'>
+          <img src='/src/private/icHome.png'/>
+          Home
+          </h1>
+          <h1 className='items'>
+          <img src='/src/private/icProduct.png'/>
+          Product
+          </h1>
+          <h1 className='items'>
+          <img src='/src/private/icGame.png'/>
+          Game
+          </h1>
+          <h1 className='items'>
+          <img src='/src/private/icSourceCode.png'/>
+          Source Code 
+          </h1>
+          <div className='sideFoter'>
+            <img src='/src/private/selfSquareFoto.jpg'/>
+            <div className='textSideFoter'>
+              <h1>Esa Lintang</h1>
+              <h5>Developer & owner (ezaco.dev)</h5>
+            </div>
+          </div>
         </aside>
         <img 
           src='/src/private/icSideAction.png' 
