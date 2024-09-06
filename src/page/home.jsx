@@ -5,14 +5,17 @@ import {useState} from 'react';
 import stylink from 'function';
 
 import Navigation from './navigation.jsx';
+import InnerWeb from './innerWeb.jsx';
+
+stylink('/src/page/home.css', 'mobile')
 
 const Home = () => {
   return(
     <div>
-      <Navigation className='navbar'/>    
-      <Routes>
-        <Route path="/" element={<h1>halo</h1>} />
-      </Routes>
+      <Navigation />
+        <Routes>
+        <Route path="/" element={<InnerWeb />} />
+      </Routes>      
     </div>
     )
 }
