@@ -1,11 +1,8 @@
-@font-face {
-  font-weight: lighter;
-  font-family: mary-kate;
-  src: url("https://db.onlinewebfonts.com/t/4f88f680537c8291217f919f524d67d7.woff")format("woff"),
-}
-
 .navigationCanvas{
   margin-top: 0;
+  font-family: 'Open Sans';
+  position: fixed;
+  top: 0;
 }
 
 .topBar{
@@ -79,7 +76,7 @@ aside{
 }
 
 .items img{
-  width: 6vw;
+  width: 8vw;
   margin-right: 3vw;
 }
 

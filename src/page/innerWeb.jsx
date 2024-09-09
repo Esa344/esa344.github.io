@@ -2,6 +2,8 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import stylink from 'function';
 
+import Game from '/src/data/gameData.js';
+
 stylink('/src/page/innerWeb.css', 'mobile')
 
 const InnerWeb = () => {
@@ -9,11 +11,24 @@ const InnerWeb = () => {
     <div className='innerWebCanvas'>
       <div className='ads'>ADS</div>
       <div className='gameBar'>
-        <div className='textGameBar'>
-          
+        <div className='textLabelBar'>
+          <h2>Come play</h2>
+          <h2>more games</h2>
         </div>
-        <div>
-          Tab to edit
+        <div className='gameItems'>
+          {Game.map((item, index) => (
+            <div key={index} className='gameItem'>
+              <img src={item.Image} className='gameImage'/>
+              <h1 className='gameName'>{item.Name}</h1>
+              <a href={item.Url} className='gameUrl'>play</a>
+            </div>
+          ))}
+        </div>
+      </div>
+      <div>
+        <div className='textLabelBar'>
+          <h2>Source Code</h2>
+          <h2>more code</h2>
         </div>
       </div>
     </div>

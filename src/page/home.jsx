@@ -13,9 +13,11 @@ const Home = () => {
   return(
     <div>
       <Navigation />
+      <div className='inner'>
         <Routes>
-        <Route path="/" element={<InnerWeb />} />
-      </Routes>      
+          <Route path="/" element={<InnerWeb />} />
+        </Routes>
+      </div>
     </div>
     )
 }

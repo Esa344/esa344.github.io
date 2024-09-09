@@ -1,3 +1,9 @@
+.rock-salt-regular {
+  font-family: "Rock Salt", cursive;
+  font-weight: 400;
+  font-style: normal;
+}
+
 .innerWebCanvas{
   display: grid;
   padding-top: 2vh;
@@ -15,4 +21,53 @@
   border: none;
   border-radius: 4vw;
   color: #FFFAF6;
+  font-family: "Open Sans";
+}
+
+.textLabelBar{
+  display: flex;
+  justify-content: space-between;
+  padding: 0 4vw;
+  font-family: "Rock Salt";
+}
+
+.textLabelBar h2{
+  margin: 2vw;
+  font-size: 5vw;
+}
+
+.gameItems{
+  display: flex;
+  width: 100vw;
+  white-space: nowrap;
+  overflow-x: auto;
+  overflow-y: hidden;
+}
+
+.gameItem{
+  background-color: #525252;
+  margin: 0 1vw;
+  padding: 2vw;
+  border-radius: 4vw;
+  font-family: "Open Sans";
+}
+
+.gameImage{
+  width: 25vw;
+  border-radius: 2vw
+}
+
+.gameName{
+  margin: 0px;
+  margin-top: 0.2vh;
+  font-size: 5vw;
+  color: #FFFAF6;
+}
+
+.gameUrl{
+  right: 3vh;
+  font-size: 3vw;
+  text-decoration: none;
+  color: white;
+  font-family: "Open Sans";
 }
