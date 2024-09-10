@@ -3,6 +3,7 @@ import ReactDOM from 'react-dom';
 import stylink from 'function';
 
 import Game from '/src/data/gameData.js';
+import SourceCode from '/src/data/sourceData.js';
 
 stylink('/src/page/innerWeb.css', 'mobile')
 
@@ -25,10 +26,21 @@ const InnerWeb = () => {
           ))}
         </div>
       </div>
-      <div>
+      <div className='souceBar'>
         <div className='textLabelBar'>
           <h2>Source Code</h2>
           <h2>more code</h2>
+        </div>
+        <div className='sourceItems'>
+          {SourceCode.map((item, index) => (
+            <div key={index} className='sourceItem'>
+              <img src={item.Image} className='sourceImage'/>
+              <div className='sourceText'>
+                <h1 className='sourceName'>{item.Name}</h1>
+                <h4 className='sourceInfo'>{item.Info}</h4>
+              </div>
+            </div>
+          ))}
         </div>
       </div>
     </div>

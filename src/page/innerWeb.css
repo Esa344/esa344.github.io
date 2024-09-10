@@ -71,3 +71,26 @@
   color: white;
   font-family: "Open Sans";
 }
+
+.sourceItem{
+  display: flex;
+}
+
+.sourceImage{
+  width: 15vw;
+  height: 15vw;
+  margin-right: 2vw;
+  border-radius: 2vw;
+}
+
+.sourceText{
+  
+}
+
+.sourceName{
+  
+}
+
+.sourceInvo{
+  
+}
