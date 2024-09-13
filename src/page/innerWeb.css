@@ -72,8 +72,14 @@
   font-family: "Open Sans";
 }
 
+.sourceItems{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
 .sourceItem{
   display: flex;
+  margin: 2vw;
 }
 
 .sourceImage{
@@ -84,13 +90,17 @@
 }
 
 .sourceText{
-  
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
 }
 
 .sourceName{
-  
+  margin: 0;
+  font-size: 6vw;
 }
 
-.sourceInvo{
-  
+.sourceInfo{
+  margin: 0;
+  font-size: 3vw;
 }

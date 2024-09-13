@@ -37,12 +37,13 @@ const InnerWeb = () => {
               <img src={item.Image} className='sourceImage'/>
               <div className='sourceText'>
                 <h1 className='sourceName'>{item.Name}</h1>
-                <h4 className='sourceInfo'>{item.Info}</h4>
+                <h4 className='sourceInfo'>size: {item.Info}</h4>
               </div>
             </div>
           ))}
         </div>
       </div>
+      <div className='ads'>ADS</div>
     </div>
     )
 }
