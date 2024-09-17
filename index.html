@@ -16,8 +16,19 @@
         margin: 0;
         background-color: #FFFAF6
       }
-
 </style>
+<script type="module">
+  import { initializeApp } from "https://www.gstatic.com/firebasejs/10.13.1/firebase-app.js";
+  const firebaseConfig = {
+    apiKey: "AIzaSyDIQPM5XVekdSwQH0EGz8WjznhuSbyMfWU",
+    authDomain: "ezaco-6f3d7.firebaseapp.com",
+    projectId: "ezaco-6f3d7",
+    storageBucket: "ezaco-6f3d7.appspot.com",
+    messagingSenderId: "816579991468",
+    appId: "1:816579991468:web:86e31fbe02d6d585924c09"
+  };
+  const app = initializeApp(firebaseConfig);
+</script>
 </head>
 <body style="display: grid; height: 100vh;">
   <div id="react-app"></div>
