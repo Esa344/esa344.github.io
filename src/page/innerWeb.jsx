@@ -4,6 +4,7 @@ import stylink from 'function';
 
 import Game from '/src/data/gameData.js';
 import SourceCode from '/src/data/sourceData.js';
+import Product from '/src/data/productData';
 
 stylink('/src/page/innerWeb.css', 'mobile')
 
@@ -13,7 +14,7 @@ const InnerWeb = () => {
       <div className='ads'>ADS</div>
       <div className='gameBar'>
         <div className='textLabelBar'>
-          <h2>Come play</h2>
+          <h2>Game</h2>
           <h2>more games</h2>
         </div>
         <div className='gameItems'>
@@ -28,7 +29,7 @@ const InnerWeb = () => {
       </div>
       <div className='souceBar'>
         <div className='textLabelBar'>
-          <h2>Source Code</h2>
+          <h2>Source code</h2>
           <h2>more code</h2>
         </div>
         <div className='sourceItems'>
@@ -44,6 +45,20 @@ const InnerWeb = () => {
         </div>
       </div>
       <div className='ads'>ADS</div>
+      <div className='productBar'>
+        <div className='textLabelBar'>
+          <h2>Product</h2>
+          <h2>more products</h2>
+        </div>
+        <div className='productItems'>
+          {Product.map((item, index) => (
+            <div key={index} className='productItem'>
+              <img src={item.Image} className='productImage'/>
+              <h1 className='productName'>{item.Name}</h1>
+            </div>
+          ))}
+        </div>
+      </div>
     </div>
     )
 }

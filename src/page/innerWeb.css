@@ -104,3 +104,30 @@
   margin: 0;
   font-size: 3vw;
 }
+
+.productItems{
+  display: flex;
+  width: 100vw;
+  white-space: nowrap;
+  overflow-x: auto;
+  overflow-y: hidden;  
+}
+
+.productItem{
+  border-radius: 6vw 6vw 1vw 1vw;
+  padding: 2vw;
+  background-color: #525252;
+  margin: 2vw;
+}
+
+.productImage{
+  height: 30vh;
+  width: 85vw;
+  border-radius: 4vw;
+}
+
+.productName{
+  margin: 0px 1vw;
+  font-size: 6vw;
+  color: #FFFAF6;
+}
