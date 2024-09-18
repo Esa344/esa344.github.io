@@ -15,7 +15,9 @@ const GamePage = () => {
       <div className='gamePageBar'>
           {Game.map((item, index) => (
             <div key={index} className='gameItem'>
-              <img src={item.Image} className='gameImage'/>
+              <img src={item.Image} className='gameImage' style={{
+                width: '38vw'
+              }}/>
               <h1 className='gameName'>{item.Name}</h1>
               <a href={item.Url} className='gameUrl'>play</a>
             </div>

@@ -1,7 +1,11 @@
+.gameCanvas{
+  padding-bottom: 3vh;
+}
+
 .gamePageBar{
   display: flex;
   flex-wrap: wrap;
   gap: 2vw;
-  justify-content: space-around;
+  justify-content: center;
   padding: 2vh 3vw;
 }

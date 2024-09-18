@@ -23,6 +23,11 @@ const Game = [
     Name : 'Game 5',
     Image : '/src/public/comingSoon.jpg',
     Url : '#'
+  },
+  {
+    Name : 'Game ular',
+    Image : '/src/public/comingSoon.jpg',
+    Url : '#'
   }
 ]
 
