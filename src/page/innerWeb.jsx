@@ -33,7 +33,9 @@ const InnerWeb = () => {
       <div className='souceBar'>
         <div className='textLabelBar'>
           <h2>Source code</h2>
-          <h2>more code</h2>
+          <Link to='/home/source-code' className='link'>
+             <h2>more code</h2>
+          </Link>
         </div>
         <div className='sourceItems'>
           {SourceCode.map((item, index) => (

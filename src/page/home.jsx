@@ -7,6 +7,7 @@ import stylink from 'function';
 import Navigation from './navigation.jsx';
 import InnerWeb from './innerWeb.jsx';
 import GamePage from './game.jsx'
+import SourcePage from './sourceCode.jsx';
 
 stylink('/src/page/home.css', 'mobile')
 
@@ -18,6 +19,7 @@ const Home = () => {
         <Routes>
           <Route path="/" element={<InnerWeb />} />
           <Route path="/game" element={<GamePage />} />
+          <Route path="/source-code" element={<SourcePage />} />
         </Routes>
       </div>
     </div>

@@ -57,10 +57,12 @@ const Navigation = () => {
             Game
             </h1>          
           </Link>
-          <h1 className='items'>
-          <img src='/src/private/icSourceCode.png'/>
-          Source Code 
-          </h1>
+          <Link to='/home/Source-code' onClick={wSidebarOpen} className='link'>
+            <h1 className='items'>
+            <img src='/src/private/icSourceCode.png'/>
+            Source Code
+            </h1>          
+          </Link>
           <div className='sideFoter'>
             <img src='/src/private/selfSquareFoto.jpg'/>
             <div className='textSideFoter'>
