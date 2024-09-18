@@ -1,5 +1,6 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
+import { Link } from 'https://cdn.jsdelivr.net/npm/react-router-dom@6.26.1/dist/umd/react-router-dom.production.min.js'
 import stylink from 'function';
 
 import Game from '/src/data/gameData.js';
@@ -15,7 +16,9 @@ const InnerWeb = () => {
       <div className='gameBar'>
         <div className='textLabelBar'>
           <h2>Game</h2>
-          <h2>more games</h2>
+          <Link to='/home/game' className='link'>
+             <h2>more games</h2>
+          </Link>
         </div>
         <div className='gameItems'>
           {Game.map((item, index) => (

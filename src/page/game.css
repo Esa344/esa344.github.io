@@ -1,0 +1,7 @@
+.gamePageBar{
+  display: flex;
+  flex-wrap: wrap;
+  gap: 2vw;
+  justify-content: space-around;
+  padding: 2vh 3vw;
+}

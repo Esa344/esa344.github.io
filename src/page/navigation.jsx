@@ -1,6 +1,7 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import {useState} from 'react';
+import { Link } from 'https://cdn.jsdelivr.net/npm/react-router-dom@6.26.1/dist/umd/react-router-dom.production.min.js'
 import stylink from 'function';
 
 const Navigation = () => {
@@ -40,18 +41,22 @@ const Navigation = () => {
               <div className='xTwo'/>
             </div>          
           </div>
-          <h1 className='items'>
-          <img src='/src/private/icHome.png'/>
-          Home
-          </h1>
+          <Link to='/home' onClick={wSidebarOpen} className='link'>
+            <h1 className='items'>
+            <img src='/src/private/icHome.png'/>
+            Home
+            </h1>        
+          </Link>
           <h1 className='items'>
           <img src='/src/private/icProduct.png'/>
           Product
           </h1>
-          <h1 className='items'>
-          <img src='/src/private/icGame.png'/>
-          Game
-          </h1>
+          <Link to='/home/game' onClick={wSidebarOpen} className='link'>
+            <h1 className='items'>
+            <img src='/src/private/icGame.png'/>
+            Game
+            </h1>          
+          </Link>
           <h1 className='items'>
           <img src='/src/private/icSourceCode.png'/>
           Source Code 
