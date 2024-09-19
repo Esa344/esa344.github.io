@@ -47,10 +47,12 @@ const Navigation = () => {
             Home
             </h1>        
           </Link>
-          <h1 className='items'>
-          <img src='/src/private/icProduct.png'/>
-          Product
-          </h1>
+          <Link to='/home/product' onClick={wSidebarOpen} className='link'>
+            <h1 className='items'>
+            <img src='/src/private/icProduct.png'/>
+            Product
+            </h1>          
+          </Link>
           <Link to='/home/game' onClick={wSidebarOpen} className='link'>
             <h1 className='items'>
             <img src='/src/private/icGame.png'/>
