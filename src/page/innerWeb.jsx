@@ -53,7 +53,9 @@ const InnerWeb = () => {
       <div className='productBar'>
         <div className='textLabelBar'>
           <h2>Product</h2>
-          <h2>more products</h2>
+           <Link to='/home/product' className='link'>
+              <h2>more Product</h2>
+           </Link>         
         </div>
         <div className='productItems'>
           {Product.map((item, index) => (

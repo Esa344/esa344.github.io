@@ -1,4 +1,4 @@
-   const stylink = (linkFile, mediaQueries = '') => {
+const stylink = (linkFile, mediaQueries = '') => {
   const link = document.createElement('link');
   link.rel = 'stylesheet';
   link.href = linkFile;
