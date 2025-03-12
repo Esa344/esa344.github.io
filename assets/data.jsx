@@ -1,29 +1,13 @@
 const Data = [
   {
-    name: '1',
+    name: 'poster makanan',
     url: {
-      canva: '#',
-      image: 'minecraft.jpg'
+      canva: 'https://www.canva.com/design/DAGhej8LMNY/6JZGeRm0j_mH0xn8hgKYjw/edit?utm_content=DAGhej8LMNY&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton',
+      image: 'standsmk.png'
     },
-    desc: 'nskwbejwjwnw'
-  },
-  {
-    name: '2',
-    url: {
-      canva: '#',
-      image: 'minecraft.jpg'
-    },
-    desc: 'nskwbejwjwnw'
-  },
-  {
-    name: '3',
-    url: {
-      canva: '#',
-      image: 'minecraft.jpg'
-    },
-    desc: 'nskwbejwjwnw'
+    desc: 'poster/brosur makanan untuk anak sekolah, 2 buah makanan dengan penjelas harga, warna merah cerah di gradasi dengan merah hati dengan aksen oranye '
   },
   
-  ]
-  
+]
+
 export default Data

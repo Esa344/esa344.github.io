@@ -11,13 +11,10 @@ const App = () => {
         <img src='/assets/icon/icName.png'/>
       </nav>
       <article>
-        <h4 className='labelText'>
-          this is the web for my canva design portfolio as<br/>a canva creator
-        </h4>
         <div>
           {Data.reverse().map((item, index) => (
-            <a key={index}>
-              <div style={{backgroundImage: `url(./assets/icon/${item.url.image})`}}></div>
+            <a key={index} href={item.url.canva}>
+              <img src={`./assets/icon/${item.url.image}`}></img>
               <h3>  
                 {item.name}
               </h3>
