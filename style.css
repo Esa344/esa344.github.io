@@ -1,9 +1,9 @@
-html{
+html {
   min-height: 100vh;
   overflow-x: hidden;
 }
 
-body{
+body {
   background-color: #E6E6E6;
   min-height: 100vh;
   height: auto;
@@ -12,25 +12,25 @@ body{
   overflow-x: hidden;
 }
 
-nav{
+nav {
   position: fixed;
   left: 50%;
   transform: translate(-50%, -20%);
   z-index: -99;
 }
 
-nav img{
+nav img {
   width: 55vw;
 }
 
-article{
+article {
   display: grid;
   padding-top: 13%;
   min-height: 100vh;
 }
 
 
-article div{
+article div {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -39,16 +39,18 @@ article div{
   place-items: center;
 }
 
-article div a{
+article div a {
   background-color: #BDBDBD;
   padding: 10px 10px;
   border-radius: 9px;
   text-decoration: none;
   color: #000;
   width: 90vw;
+  max-width: 400px;
 }
 
-article div a img{
+article div a img {
   width: 90vw;
-  border-radius: 7px ;
+  max-width: 400px;
+  border-radius: 7px;
 }
